@@ -1,5 +1,5 @@
 <?php
 
-    const JSON_URL = "mcu_movies.json"; 
+    const JSON_URL = "https://whenisthenextmcufilm.com/api"; 
     
 ?>
