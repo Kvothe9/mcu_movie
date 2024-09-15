@@ -7,8 +7,8 @@
             require "templates/$template.php";
         }
 
-        function get_data(string JSON_URL): array {
-            $result = file_get_contents(JSON_URL);
+        function get_data(string $url): array {
+            $result = file_get_contents($url);
             $data = json_decode($result, true);
             return $data;
 
